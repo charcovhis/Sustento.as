@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustento</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="image/Sustento_logo-03.png" type="image/x-icon">
+</head>
+<body>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg  p-3 mb-2 navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html"><img style="max-width:100px; margin-top: -7px;" src="image/Sustento_logo-03.png"></a>
+         
+      <div class="btn-group btn-group-lg" role="group" aria-label="botones">
+        <button type="button" class="btn btn-outline-light"> <a href="pages/projects.html"> Proyectos </a> </button>
+        <button type="button" class="btn btn-outline-light"> <a href="pages/bootcamp.html"> Bootcamp </a> </button>
+        <button type="button" class="btn btn-outline-light"> <a href="pages/contact.html"> Contacto </a> </button>
+      </div>
+    </nav>
+   </header>
+
+   <main class="main__header">
+    <section class="textos__header">
+      <h1>SUSTENTO</h1>
+      <h2>"Es un emprendimiento social, <br> donde la lógica del sector privado es aplicada para tener un impacto social"</h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C193.00,-113.97 170.99,237.33 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffffff;">
+        </path>
+      </svg>
+    </div>
+  </main>
+  <div class="description_sustento">
+    <div>
+      <iframe src="https://www.youtube.com/embed/DPIKlsV5qmI" class="description_video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+    <section class="about__us">
+      <div class="info">
+        <h3>Acerca de nosotros</h3>
+        <p>Sustento es un emprendimiento social que nace por Alimenta la Solidaridad. <br> A través de la organización quisimos generar un proyecto de orden social que fuese no solo solidario sino también productivo, y decidimos lanzar nuestro emprendimiento social: Sustento.
+
+        <p> <h3> <strong> Sustento representa: <br> De un plato de comida, comen tres.</strong> </h3> </p>  
+        
+        <p class="text-justify">  A través del proyecto estamos generando medios de vida para madres venezolanas, creando empleos dirigidos a mujeres con barreras muy altas para acceder al mercado laboral, con cada plato vendido, el cliente recibe un delicioso almuerzo y con su compra contribuye con un plato de comida para un niño con vulnerabilidad alimentaria, que es atendido en Venezuela por los comedores comunitarios de Alimenta la Solidaridad.</p>
+      
+        <br>
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 50%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #bd1700;">
+        </path>
+      </svg>
+        <h2 class="section_text-color">La solidaridad es la fuerza que nos une</h2>
+      </div> 
+      
+      <div class="row">
+      <div class="col-lg-12">
+        <img  class="img-fluid" src="image/logodelaorganizacion.jpg">
+      </div>
+     </div>
+    </section>
+
+
+
+
+    <footer>
+      <div class="contenedor__footer">
+        <div class="content__foo">
+          <h3> <a href="https://alimentalasolidaridad.org" class="link-light">Alimenta la Solidaridad </a></h3>
+        </div>
+        <div class="content__foo">
+          <h3>Caracas, Venezuela.</h3>
+        </div>
+        <div class="content__foo">
+          <h3> <a href="https://www.instagram.com/sustento.as/" class="link-light"> @Sustento.AS</a></h3>
+        </div>
+      </div>
+    <h4 class="titulo__final"> Angel-Elias Chacon R. (2021)</h4> 
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+ $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+	    $(".navbar").css("background" , "#bd1700");
+	  }
+
+	  else{
+		  $(".navbar").css("background" , "transparent");  	
+	  }
+  })
+})
+</script>
+<script>
+  $(document).ready(function(){
+ 
+ if(window.innerWidth < 768){
+     $('.btn-group').addClass('btn-sm');
+ }
+ 
+ 
+ else if(window.innerWidth < 900){
+     $('.btn-group').removeClass('btn-sm');
+ }
+});
+</script>
+ 
+</body>
+</html>

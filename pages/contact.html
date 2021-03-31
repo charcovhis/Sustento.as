@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustento</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../image/Sustento_logo-03.png" type="image/x-icon">
+</head>
+<body>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg  p-3 mb-2 navbar-dark fixed-top">
+      <a class="navbar-brand" href="../index.html"><img style="max-width:100px; margin-top: -7px;" src="../image/Sustento_logo-03.png"></a>
+         
+      <div class="btn-group btn-group-lg" role="group" aria-label="botones">
+        <button type="button" class="btn btn-outline-light"> <a href="bootcamp.html"> Bootcamp </a> </button>
+        <button type="button" class="btn btn-outline-light"> <a href="../index.html"> Inicio </a> </button>
+        <button type="button" class="btn btn-outline-light"> <a href="projects.html"> Proyectos </a> </button>
+      </div>
+    </nav>
+   </header>
+
+   <main class="main__header">
+    <section class="textos__header">
+      <h1>SUSTENTO</h1>
+      <h2>"Es un emprendimiento social, <br> donde la lógica del sector privado es aplicada para tener un impacto social"</h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C193.00,-113.97 170.99,237.33 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffffff;">
+        </path>
+      </svg>
+    </div>
+  </main>
+  
+  <section class="section__main-form">
+    
+    <article>
+        <div class="section__form">
+            <form>
+                <h2>¡Queremos conocerte!</h2>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Ingresa tu Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">un ejemplo es Sustento@gmail.com</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputName1">¿Cómo te llamas?</label>
+                  <input type="text" class="form-control" id="exampleInputName1" placeholder="name">
+                  <small id="emailHelp" class="form-text text-muted">un ejemplo es Josefina</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputNumber1">¿Nos dejas tu whatsapp?</label>
+                    <input type="number" class="form-control" id="exampleInputNumber1" placeholder="number">
+                    <small id="emailHelp" class="form-text text-muted">tranqui, no compartiremos tus datos</small>
+                  </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Aceptas los términos y condiciones</label>
+                  <small id="emailHelp" class="form-text text-muted"><a href="https://alimentalasolidaridad.org/privacy">Términos y Condiciones</a></small>
+                </div>
+                <div class="form-submit">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+        </div>
+        
+    </article>
+
+</section>
+
+    <footer>
+      <div class="contenedor__footer">
+        <div class="content__foo">
+          <h3> <a href="https://alimentalasolidaridad.org" class="link-light">Alimenta la Solidaridad </a></h3>
+        </div>
+        <div class="content__foo">
+          <h3>Caracas, Venezuela.</h3>
+        </div>
+        <div class="content__foo">
+          <h3> <a href="https://www.instagram.com/sustento.as/" class="link-light"> @Sustento.AS</a></h3>
+        </div>
+      </div>
+    <h4 class="titulo__final"> Angel-Elias Chacon R. (2021)</h4> 
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+ $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+	    $(".navbar").css("background" , "#bd1700");
+	  }
+
+	  else{
+		  $(".navbar").css("background" , "transparent");  	
+	  }
+  })
+})
+</script>
+<script>
+  $(document).ready(function(){
+ 
+ if(window.innerWidth < 768){
+     $('.btn-group').addClass('btn-sm');
+ }
+ 
+ 
+ else if(window.innerWidth < 900){
+     $('.btn-group').removeClass('btn-sm');
+ }
+});
+</script>
+ 
+</body>
+</html>

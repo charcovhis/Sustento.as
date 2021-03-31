@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustento</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../image/Sustento_logo-03.png" type="image/x-icon">
+</head>
+<body>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg  p-3 mb-2 navbar-dark fixed-top">
+      <a class="navbar-brand" href="../index.html"><img style="max-width:100px; margin-top: -7px;" src="../image/Sustento_logo-03.png"></a>
+         
+      <div class="btn-group btn-group-lg" role="group" aria-label="botones">
+            <button type="button" class="btn btn-outline-light"> <a href="projects.html"> Proyectos </a> </button>
+            <button type="button" class="btn btn-outline-light"> <a href="../index.html"> Inicio </a> </button>
+            <button type="button" class="btn btn-outline-light"> <a href="contact.html"> Contacto </a> </button>
+      </div>
+    </nav>
+   </header>
+
+   <main class="main__header">
+    <section class="textos__header">
+      <h1>SUSTENTO</h1>
+      <h2>"Es un emprendimiento social, <br> donde la lógica del sector privado es aplicada para tener un impacto social"</h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C193.00,-113.97 170.99,237.33 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffffff;">
+        </path>
+      </svg>
+    </div>
+  </main>
+  <div class="description_sustento">
+
+    <section class="about__us">
+      <div class="info">
+        <h3>Bootcamp de emprendimiento, Sustento.AS</h3>
+        <p class="text-justify">  La pandemia causada por el COVID-19, ha sacudido al mundo, pero especialmente a las poblaciones mas vulnerables. 
+             Desde Sustento, en su afán de amplificar su impacto positivo en mujeres y hogares, ha elaborado un programa de entrenamiento y acompañamiento para emprendedor@s. 
+             <br> Este plan consta de 12 módulos inspirados en la metodología Canvas de los autores Alexander Osterwalder e Yves Pigneur. Cada módulo es necesario pues irás desarrollando una parte de tu negocio poco a poco  para finalizar con un modelo de negocio funcional.
+             </p>     
+        <p class="text-justify">  El programa es gratuito, práctico, libre, con el requisito de saber leer y tener muchas ganas de emprender. 
+           <br> Te invitamos a ponerte en contacto con Sustento, para que puedas tener el acompañamiento recomendado en tu formación como emprendedor. 
+           <br> Puedes descargar nuestro E-book dando clic a la imagen. 
+        </p>
+         </div>
+
+    </section>
+    <section>
+    <div class="ebook">
+       <a href="../docs/Primera edición .pdf">  <img src="../image/Ebook.png">   </a> 
+     </div>
+    </section>
+
+    <footer>
+      <div class="contenedor__footer">
+        <div class="content__foo">
+          <h3> <a href="https://alimentalasolidaridad.org" class="link-light">Alimenta la Solidaridad </a></h3>
+        </div>
+        <div class="content__foo">
+          <h3>Caracas, Venezuela.</h3>
+        </div>
+        <div class="content__foo">
+          <h3> <a href="https://www.instagram.com/sustento.as/" class="link-light"> @Sustento.AS </a></h3>
+        </div>
+      </div>
+    <h4 class="titulo__final"> Angel-Elias Chacon R. (2021)</h4> 
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+ $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+	    $(".navbar").css("background" , "#bd1700");
+	  }
+
+	  else{
+		  $(".navbar").css("background" , "transparent");  	
+	  }
+  })
+})
+</script>
+<script>
+  $(document).ready(function(){
+ 
+ if(window.innerWidth < 768){
+     $('.btn-group').addClass('btn-sm');
+ }
+ 
+ 
+ else if(window.innerWidth < 900){
+     $('.btn-group').removeClass('btn-sm');
+ }
+});
+</script>
+ 
+</body>
+</html>
